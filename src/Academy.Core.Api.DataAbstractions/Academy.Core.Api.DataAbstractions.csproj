@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Academy.Core.Api.DataObjects\Academy.Core.Api.DataObjects.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -2,7 +2,7 @@
 
 namespace Academy.Core.Api.DataObjects
 {
-    public class Class1
+    public abstract class BaseEntity
     {
     }
 }
