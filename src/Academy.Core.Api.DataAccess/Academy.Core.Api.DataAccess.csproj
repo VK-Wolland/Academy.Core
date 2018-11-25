@@ -6,6 +6,14 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational.Design" Version="1.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Academy.Core.Api.DataAbstractions\Academy.Core.Api.DataAbstractions.csproj" />
+    <ProjectReference Include="..\Academy.Core.Api.DataObjects\Academy.Core.Api.DataObjects.csproj" />
   </ItemGroup>
 
 </Project>
